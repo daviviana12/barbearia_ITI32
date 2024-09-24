@@ -21,7 +21,7 @@ and open the template in the editor.
 
         <!-- CORPO DA PÁGINA -->
 
-        <form name="formServico" action="" method="post">
+        <form name="formServico" action="servicos_salvar.php" method="post">
             <div id="body">
 
                 <h1><span>Cadastrar serviços</span></h1>

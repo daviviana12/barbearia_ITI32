@@ -23,8 +23,25 @@ and open the template in the editor.
 
         <form name="formServico" action="" method="post">
             <div id="body">
+               
+            <?php
+                //1° Passo: Incluir as configurações de BDA 
+            include "conexao_bd.php";           
+                //2° Passo: Capturar os valores informados pelo usuário 
+            $descricao = $_POST["txtDescricao"];
+            $valor = $_POST["txtPreco"];
+                //3º Passo: Montar o comando SQL de inserção
+            $sql = "INSERT INTO servico(descricao,valor) VALUES ('$descricao','$valor')";
+            //4° Passo: Executar o comando SQL
+            if(executarComando($sql)){
+                echo "<h2>Operação realizada com sucesso!</h2>";
+            }
+            else
+            {
+                echo "<h2>Não foi possível adicionar o serviço</h2>";
+            }
 
-                
+            ?>
             </div>
         </form>
 
