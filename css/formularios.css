@@ -1,0 +1,61 @@
+﻿.input
+{
+    border: 2px solid #252525;
+	color: #252525;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 20px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 400px;
+}
+.drop
+{
+    border: 2px solid #252525;
+	color: #252525;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 20px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 423px;
+}
+
+.botao
+{
+    background: #252525;
+	color: #fff;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	padding: 20px 28px;
+	width: auto;
+}
+
+.botao :hover
+{
+    background: #fff;
+	color: #252525;
+	cursor: pointer;
+}
+
+ol
+{
+    list-style:none;
+}
+
+li
+{
+    margin-top:10px;
+}
+
+.grid {
+    width: 80%;
+    margin: 0px auto;
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: center;
+}
